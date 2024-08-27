@@ -1,0 +1,88 @@
+
+.left-arrow,.right-arrow{
+ display: none ;
+}
+
+.btns{
+ display: none;
+ 
+ }
+   
+ .links li {
+  display: none;
+ }
+ .links li:first-child,
+.links li:last-child {
+ display: block;
+}
+
+.itemmmm .icons li,
+.itemmmm .navs li {
+ display: block;
+}
+
+
+ #sectionTwo {
+   padding: 0 30px; /* توفير مساحة جانبية */
+ }
+
+ #sectionTwo .container {
+   margin: 0;
+ }
+
+ #sectionTwo .container h3:first-child {
+   font-size: 2.5rem;
+   line-height: 3.5rem;
+   width: auto; /* إزالة العرض الثابت */
+   text-align: center; /* محاذاة النص في الوسط */
+ }
+
+ #sectionTwo .container .innerSectionTwo .itemSection {
+   width: 100%;
+   height: 60vh; /* زيادة الارتفاع قليلاً للشاشات الكبيرة */
+   border-radius: 20px;
+ }
+
+ #sectionTwo .container .itemSectionTwo div:first-child {
+   display: flex;
+   flex-direction: row; /* تعديل الاتجاه إلى الصفوف */
+   overflow-x: auto;
+   scroll-behavior: smooth;
+ }
+
+ #sectionTwo .container .itemSectionTwo div:first-child div {
+   width: 30%; /* زيادة عرض العناصر قليلاً */
+   height: 100px; /* تعديل الارتفاع */
+ }
+
+ #sectionTwo .container .itemSectionTwo div:first-child div span:first-child {
+   font-size: 1.5rem; /* تعديل حجم الخط */
+ }
+
+ #sectionTwo .container .itemSectionTwo div:first-child div span:last-child {
+   font-size: 0.9rem; 
+ }
+
+ #sectionTwo .bodySection p {
+   font-size: 1.1rem; 
+   padding-left: 10px; 
+ }
+
+ #sectionTwo .container .itemSectionTwo ul li {
+   font-size: 1.1rem; /* تعديل حجم الخط */
+ }
+
+ .buttonCommon button {
+   width: 80%; /* تعديل عرض الزر */
+ }
+
+ .buttonCommon .iconic {
+   width: 36px; /* تعديل حجم الأيقونة */
+   height: 36px;
+ }
+
+ .buttonCommon .iconic i {
+   font-size: 24px; /* تعديل حجم الأيقونة */
+ }
+
+
